@@ -1,14 +1,14 @@
-const customRender = function (props) {
+function customRender(reactElement, container) {
   const domElement = document.createElement(reactElement.type);
   domElement.innerHTML = reactElement.children;
   for (const prop in reactElement.props) {
-    if (prop == "children") continue;
+    if (prop === "children") continue;
     domElement.setAttribute(prop, reactElement.props[prop]);
     {
       container.appendChild(domElement);
     }
   }
-};
+}
 
 const reactElement = {
   type: "a",
@@ -19,6 +19,6 @@ const reactElement = {
   children: "Click me to visit google",
 };
 
-const mainContainer = document.getElementById("#root");
+const mainContainer = document.querySelector("#root");
 
 customRender(reactElement, mainContainer);
