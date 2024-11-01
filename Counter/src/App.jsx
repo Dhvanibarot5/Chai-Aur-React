@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Counter />
+      <Counter count={count} setCount={setCount} />
+      <Counter count={count} setCount={setCount} />
     </>
   );
 }

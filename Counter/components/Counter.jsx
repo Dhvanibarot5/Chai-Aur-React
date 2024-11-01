@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-export default function Counter() {
-  const [count, setCount] = useState(0);
+export default function Counter({ count, setCount }) {
+  //   const [count, setCount] = useState(0);
   //   console.log("count", count);
 
   const decrement = () => {
