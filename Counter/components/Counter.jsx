@@ -5,7 +5,9 @@ export default function Counter() {
   //   console.log("count", count);
 
   const decrement = () => {
-    console.log("hello");
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
 
   const increment = () => {
