@@ -61,7 +61,7 @@ function App() {
             defaultChecked={numAllow}
             id="numberInput"
             onChange={() => {
-              setNumAllow((prev) => !prev);
+              setNumAllow(!numAllow);
             }}
           />
           <label htmlFor="numberInput">Numbers</label>
