@@ -20,15 +20,15 @@ function App() {
 
       <HeroSection />
       <AboutHospital />
-      <Services />
-      <OurDoctors />
-      <Testimonial />
-      <ContactUs />
-      <Help />
-      <Blogs />
-      <Newsletter />
+      {/* <Services /> */}
+      {/* <OurDoctors /> */}
+      {/* <Testimonial /> */}
+      {/* <ContactUs /> */}
+      {/* <Help /> */}
+      {/* <Blogs /> */}
+      {/* <Newsletter /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

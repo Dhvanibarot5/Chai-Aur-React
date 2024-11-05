@@ -32,7 +32,7 @@ export default function HeroSection() {
                 <Buttons />
                 <Buttons />
               </div>
-              <div className="w-[296px] h-[291px] p-5 pt-28">
+              <div className="w-[296px] h-[291px] p-7 ps-0 pt-28">
                 <img src={GirlCartoon} alt="" />
               </div>
               <img src={Arrow} className="absolute top-52 right-24" />
