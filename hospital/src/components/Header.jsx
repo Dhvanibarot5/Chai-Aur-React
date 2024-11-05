@@ -3,9 +3,9 @@ import Logo from "../../public/Logo.png";
 import Buttons from "./Buttons";
 export default function Header() {
   return (
-    <section>
+    <section className="bg-[#F5F6F9] py-5">
       <div className="container mx-auto">
-        <nav className="flex justify-between items-center h-10 p-5 sticky top-0 left-0 right-0 mt-5">
+        <nav className="flex justify-between items-center h-10 p-5 ps-0 sticky top-0 left-0 right-0">
           <img src={Logo} alt="logo" />
           <ul className="flex">
             <li className="p-4">Home</li>

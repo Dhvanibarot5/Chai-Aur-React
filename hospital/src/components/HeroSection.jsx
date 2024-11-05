@@ -8,27 +8,36 @@ import Heroimg4 from "../../public/Heroimg4.png";
 import Heroimg5 from "../../public/Heroimg5.png";
 import Heroimgcard from "../../public/Heroimgcard.png";
 import Medicineicon from "../../public/MedicineIcon.png";
+import Arrow from "../../public/arrow.png";
+import hospital from "../../public/hospitalimg.png";
 
 export default function HeroSection() {
   return (
-    <section className="mt-12 bg-[#F5F6F9]">
+    <section className="py-12 bg-[#F5F6F9]">
       <div className="container mx-auto">
         <div className="flex">
           <div className="w-1/2">
-            <div className="">
-              <h1 className="text-5xl font-Fredoka font-semibold">
-                Find the good life by good health
-                <img src={Medicineicon} alt="" />
-              </h1>
+            <div className="relative">
+              <div className="">
+                <h1 className="text-5xl font-Fredoka font-semibold py-5 pe-16">
+                  Find the good life by good health
+                  {/* <img src={Medicineicon} alt="" /> */}
+                </h1>
+              </div>
+              <p className="font-DM Sans text-gray-500">
+                Dhameliya Kidney Hospital has born out of the need <br /> for a good centre which catered to patients with <br /> complicated kidney
+                diseases in Surat
+              </p>
+              <div className="mt-8 ">
+                <Buttons />
+                <Buttons />
+              </div>
+              <div className="w-[296px] h-[291px] p-5 pt-28">
+                <img src={GirlCartoon} alt="" />
+              </div>
+              <img src={Arrow} className="absolute top-52 right-24" />
+              <img src={hospital} className="absolute right-24 " />
             </div>
-            <p className="font-DM Sans text-gray-500">
-              Dhameliya Kidney Hospital has born out of the need for a good centre which catered to patients with complicated kidney diseases in Surat
-            </p>
-            <div className="mt-8 ">
-              <Buttons />
-              <Buttons />
-            </div>
-            <img src={GirlCartoon} alt="" className="w-303px h-303px" />
           </div>
           <div className="w-1/2 flex">
             <div className="w-1/2">

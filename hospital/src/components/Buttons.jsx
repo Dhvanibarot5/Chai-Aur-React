@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Buttons() {
-  return <button style={{ backgroundColor: "#385182", padding: "9px" }} className="rounded-lg text-white">Make Appointment</button>;
+  return <button className="rounded-lg text-white bg-[#385182] p-2 me-5">Make Appointment</button>;
 }
