@@ -20,8 +20,8 @@ function App() {
 
       <HeroSection />
       <AboutHospital />
-      {/* <Services /> */}
-      {/* <OurDoctors /> */}
+      <Services />
+      <OurDoctors />
       {/* <Testimonial /> */}
       {/* <ContactUs /> */}
       {/* <Help /> */}

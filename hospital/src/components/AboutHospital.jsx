@@ -9,12 +9,13 @@ import star from "../../public/Star.png";
 
 export default function AboutHospital() {
   return (
-    <section className="pt-24">
+    <section className="py-24">
       <div className="container mx-auto flex">
         <div className="w-1/2">
           <div className="relative">
             <div className="">
               <img src={aboutTitle} className="ms-52 " />
+              {/* <p className="ms-52 absolute top-0 text-3xl text-black">OUR COMPANY</p> */}
               <img src={aboutimg} className="w-[522px] h-[391px] " />
             </div>
             <div className="bg-white absolute p-5 top-0 w-[164px] h-[115px] rounded-xl">
