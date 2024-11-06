@@ -53,10 +53,11 @@ export default function ContactUs() {
           </p>
           <Buttons />
         </div>
-        {/* <div className="border border-blue-500 p-2 m-2">
-          <ContactUsFooter />
-        </div> */}
+        
       </div>
+      <div className="">
+          <ContactUsFooter />
+        </div>
     </section>
   );
 }

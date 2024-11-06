@@ -24,7 +24,7 @@ function App() {
       <OurDoctors />
       <Testimonial />
       <ContactUs />
-      {/* <Help /> */}
+      <Help />
       {/* <Blogs /> */}
       {/* <Newsletter /> */}
 
