@@ -14,13 +14,13 @@ export default function AboutHospital() {
         <div className="w-1/2">
           <div className="relative">
             <div className="">
-              <img src={aboutTitle} className="ms-52 " />
+              <img src={aboutTitle} className="ms-52" />
               {/* <p className="ms-52 absolute top-0 text-3xl text-black">OUR COMPANY</p> */}
-              <img src={aboutimg} className="w-[522px] h-[391px] " />
+              <img src={aboutimg} className="w-[680px] h-[520px] " />
             </div>
-            <div className="bg-white absolute p-5 top-0 w-[164px] h-[115px] rounded-xl">
+            <div className="bg-white absolute p-5 top-0 w-[164px] h-[125px] rounded-xl shadow-lg">
               <img src={grouptitle} className="" />
-              <img src={groupimg} className="p-3" />
+              <img src={groupimg} className="p-2 mt-1" />
             </div>
           </div>
         </div>
