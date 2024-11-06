@@ -22,7 +22,7 @@ function App() {
       <AboutHospital />
       <Services />
       <OurDoctors />
-      {/* <Testimonial /> */}
+      <Testimonial />
       {/* <ContactUs /> */}
       {/* <Help /> */}
       {/* <Blogs /> */}
