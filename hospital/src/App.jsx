@@ -26,7 +26,7 @@ function App() {
       <ContactUs />
       {/* <Help /> */}
       {/* <Blogs /> */}
-      {/* <Newsletter /> */}
+      <Newsletter />
 
       <Footer />
     </>

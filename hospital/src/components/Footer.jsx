@@ -1,5 +1,5 @@
 import React from "react";
-import Star4 from "../../public/Star4.png";
+
 
 export default function Footer() {
   return (
