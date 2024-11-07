@@ -25,7 +25,7 @@ function App() {
       <Testimonial />
       <ContactUs />
       <Help />
-      {/* <Blogs /> */}
+      <Blogs />
       <Newsletter />
 
       <Footer />
